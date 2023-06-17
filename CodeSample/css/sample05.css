@@ -1,0 +1,19 @@
+#wrap{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#wrap div{
+    width: 125px;
+    height: 125px;
+    border: 1px solid black;
+}
+#wrap div:nth-child(odd):hover{
+    background-color: aqua;
+}
+#wrap div:nth-child(even){
+    background-color: tomato;
+}

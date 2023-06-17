@@ -1,0 +1,15 @@
+h1 {
+    color: #ff6347;
+}
+h1:hover {
+    color: rgb(203, 89, 69);
+}
+div {
+    width: 125px;
+    height: 125px;
+    border: 1px dotted black;
+    background-color: aquamarine;
+}
+div:hover {
+    background-color: cadetblue;
+}

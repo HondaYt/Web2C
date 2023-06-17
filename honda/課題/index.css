@@ -1,0 +1,36 @@
+/* 共通要素 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+h1{
+    font-size: 30px;
+    color: #fff;
+}
+header {
+    display: flex;
+    padding-left: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: silver;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.navmenu{
+    display: flex;
+    gap: 10rem;
+}
+li{
+    list-style: none;
+}
+/* body */
+#background_img {
+    height: 92vh;
+    width: 100%;
+    background-image: url(sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
