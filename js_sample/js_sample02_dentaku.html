@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sample02.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" class="num1 num2 ans">
+
+    <div id="keyswrap">
+        <div id="numkey">
+            <div id="column4" class="keys">
+                <button value="0" id="zero" onclick="typed(event)">0</button>
+                <button value="." onclick="typed(event)">.</button>
+            </div>
+            <div id="column3" class="keys">
+                <button value="1" onclick="typed(event)">1</button>
+                <button value="2" onclick="typed(event)">2</button>
+                <button value="3" onclick="typed(event)">3</button>
+            </div>
+            <div id="column2" class="keys">
+                <button value="4" onclick="typed(event)">4</button>
+                <button value="5" onclick="typed(event)">5</button>
+                <button value="6" onclick="typed(event)">6</button>
+            </div>
+            <div id="column1" class="keys">
+                <button value="7" onclick="typed(event)">7</button>
+                <button value="8" onclick="typed(event)">8</button>
+                <button value="9" onclick="typed(event)">9</button>
+            </div>
+            <div id="opt" class="keys">
+                <button value="ac" onclick="typed(event)">AC</button>
+                <button value="cha" onclick="typed(event)">+/-</button>
+                <button value="%" onclick="typed(event)">%</button>
+            </div>
+        </div>
+
+        <br>
+        <div id="cul" class="keys">
+            <button value="+" onclick="typed(event)">+</button>
+            <button value="-" onclick="typed(event)">-</button>
+            <button value="*" onclick="typed(event)">×</button>
+            <button value="/" onclick="typed(event)">÷</button>
+            <button id="equ">=</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/js_sample02_dentaku.js"></script>
+</body>
+
+</html>
