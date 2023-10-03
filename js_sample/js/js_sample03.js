@@ -46,7 +46,6 @@ for (let i = 0; i < btn.length; i++) {
         text.innerText = `${evt.target.innerText}が押されました`;
     });
 }
-
 // btn.addEventListener("click", () => {
 //     console.log("hello")
 // });

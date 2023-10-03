@@ -7,7 +7,3 @@ const keys = document.getElementById("keys")
 function typed(e) {
     console.log(e.target.value);
 }
-
-// function calc() {
-    
-// }
