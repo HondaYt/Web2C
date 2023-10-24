@@ -12,15 +12,16 @@ mS.style.background = "tomato";
 mS.style.opacity = 0.8;
 mS.style.zIndex = 1000;
 mS.style.transition = "transform 0.1s linear";
-mS.addEventListener("mousedown", () => {
-  document.addEventListener("mousemove", function mouseStalker(e) {
+
+let flg = false;
+
+
+mS.addEventListener("mousedown", () => (flg = true));
+mS.addEventListener("mouseup", () => (flg = false));
+
+document.addEventListener("mousemove", (e) => {
+    if (!flg) return;
     const stalkerX = e.clientX - parseInt(mS.style.width) / 2;
     const stalkerY = e.clientY - parseInt(mS.style.height) / 2;
-    // console.log(mS.style.width);
     mS.style.transform = "translate(" + stalkerX + "px," + stalkerY + "px)";
-    // console.log(mS.style.transform);
-    mS.addEventListener("mouseup", () => {
-      console.log();
-    });
-  });
 });
