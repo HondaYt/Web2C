@@ -15,7 +15,6 @@ mS.style.transition = "transform 0.1s linear";
 
 let flg = false;
 
-
 mS.addEventListener("mousedown", () => (flg = true));
 mS.addEventListener("mouseup", () => (flg = false));
 
