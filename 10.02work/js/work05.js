@@ -11,7 +11,7 @@ mS.style.height = mS.style.width;
 mS.style.background = "tomato";
 mS.style.opacity = 0.8;
 mS.style.zIndex = 1000;
-mS.style.transition = "transform 0.1s linear";
+// mS.style.transition = "transform 0.1s linear";
 
 let flg = false;
 
